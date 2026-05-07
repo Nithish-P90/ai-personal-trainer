@@ -1,24 +1,24 @@
-# Vibe Vision Assistant 👁️🤖
+# AI Personal Trainer 🏋️‍♂️🤖
 
-An AI Personal Assistant with Computer Vision capabilities, built through the power of Vibe Coding.
+An AI-powered personal trainer with Computer Vision capabilities, built through the power of Vibe Coding.
 
 ## 🚀 Vision
-To create a seamless, visually aware companion that understands your environment and assists in real-time.
+To create a real-time fitness companion that monitors your form, tracks your reps, and motivates you to push your limits safely.
 
 ## 🛠️ Project Structure
 - `src/`: Core source code.
-  - `vision/`: Image processing, object detection, and spatial understanding.
-  - `assistant/`: LLM integration, tool use, and conversational logic.
-  - `ui/`: Frontend or CLI interface.
-- `prompts/`: Shared agent context and system instructions.
-- `assets/`: Icons, images, and model weights.
-- `tests/`: Vibe-checks and unit tests.
+  - `vision/`: Pose estimation, rep counting, and form analysis.
+  - `assistant/`: Motivational coaching, workout plans, and tool use.
+  - `ui/`: Workout dashboard or mobile-friendly overlay.
+- `prompts/`: Shared agent context for fitness coaching and technical vibes.
+- `assets/`: Training models (e.g. MediaPipe Pose), workout videos, and icons.
+- `tests/`: Form-check validations and unit tests.
 
 ## 🤝 Getting Started
 1. Clone the repo.
 2. Read `VIBE_GUIDE.md`.
 3. Set up your environment: `pip install -r requirements.txt` (Coming soon).
-4. Run the main vibe: `python src/main.py`.
+4. Run the trainer: `python src/main.py`.
 
 ## 📡 Collaboration
 This project is built by multiple agents and humans. Check out [VIBE_GUIDE.md](VIBE_GUIDE.md) for the workflow.
