@@ -1,0 +1,23 @@
+name: Vibe Request
+description: Propose a new feature or direction for the vision assistant.
+title: "[VIBE]: "
+labels: ["enhancement", "vibe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the new "vibe" you want the assistant to have.
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the desired behavior?
+      description: Explain what you want the assistant to do or feel like.
+      placeholder: "e.g. I want the assistant to recognize when I'm tired and offer to dim the screen."
+    validations:
+      required: true
+  - type: textarea
+    id: technical-vibes
+    attributes:
+      label: Technical Intent
+      description: Any specific libraries or approaches you have in mind?
+      placeholder: "e.g. Use MediaPipe for facial expression recognition."
